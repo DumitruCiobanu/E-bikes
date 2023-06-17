@@ -1,0 +1,591 @@
+@font-face {
+  font-family: "Neometric-Heavy";
+  src: url("/EBikes/fonts/Neometric-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-Bold";
+  src: url("/EBikes/fonts/Neometric-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-ExtraBold";
+  src: url("/EBikes/fonts/Neometric-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-ExtraBoldItalic";
+  src: url("/EBikes/fonts/Neometric-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-ExtraLight";
+  src: url("/EBikes/fonts/Neometric-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-HeavyItalic";
+  src: url("/EBikes/fonts/Neometric-HeavyItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-Italic";
+  src: url("/EBikes/fonts/Neometric-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-Light";
+  src: url("/EBikes/fonts/Neometric-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-LightItalic";
+  src: url("/EBikes/fonts/Neometric-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-Medium";
+  src: url("/EBikes/fonts/Neometric-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-MediumItalic";
+  src: url("/EBikes/fonts/Neometric-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neometric-Regular";
+  src: url("/EBikes/fonts/Neometric-Regular.ttf") format("truetype");
+}
+body{
+  background-color: #cccccc;
+  overflow-x: hidden;
+}
+
+/* first-section */
+
+.welcome-section{
+  width: 100vw;
+}
+h1 {
+  text-align: left;
+  margin-left: 90px;
+  margin-top: 140px;
+  font-family: "Neometric-HeavyItalic";
+}
+span.red{
+  color: #cc5253;
+  text-transform: uppercase;
+  margin-left: -5px;
+}
+span.red-e{
+  color: #cc5253;
+}
+.navbar-brand{
+  display: flex;
+}
+.logo{
+  margin-top: 40px;
+  margin-left: 80px;
+  color: #cc5253;
+}
+.logo_text {
+  font-family: "Neometric-Heavy";
+  margin-top: 76px;
+  margin-left: 15px;
+  line-height: 20px;
+}
+span.logo_black {
+  font-size: 30px;
+}
+span.logo_red {
+  font-size: 30px;
+  color: #cc5253;
+}
+span.under_text{
+  font-family: "Neometric-regular";
+  margin-left: 4px;
+  color: #4b4a4a;
+}
+ul.nav{
+  margin-right: 80px;
+}
+ul > li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 5px;
+  margin-top: 64px;
+}
+li > a {
+  text-decoration: none;
+  color: #5e5e5e;
+  font-family: "Neometric-regular";
+  margin-right: 36px;
+  font-weight: bolder;
+
+}
+nav {
+  background-color: none;
+}
+.wrapper{
+  top: 0;
+  right: 0;
+  filter: drop-shadow(-10px  0px 20px #6d6d6d);
+  z-index: -1;
+}
+.red-figure{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 768px;
+  width: 550px;
+  clip-path: polygon(37% 0, 100% 0, 100% 100%, 0 100%);
+  background-color: #ca5356;
+  z-index: -1;
+ 
+}
+.description{
+  width: 600px;
+  margin-left: 90px;
+  font-family: "Neometric-ExtraLight";
+  color: #5e5e5e;
+  font-weight: bolder;
+}
+.main-bike{
+  width: 500px;
+  transform: rotateY(180deg);
+  margin-left: 730px;
+  margin-top: -300px;
+  position: relative;
+  
+}
+.descr-list1{
+  display: flex;
+    justify-content: flex-end;
+    position: relative;
+    gap: 100px;
+    margin-right: 280px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.descr-list2{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+    gap: 110px;
+    margin-right: 340px;
+    margin-top: 40px;
+    line-height: 20px;
+}
+dd{
+  font-size: 0.7em;
+  font-family: "Neometric-MediumItalic";
+}
+.dd2, .dd4, .dt2, .dt4{
+  color: #cccccc;
+  
+}
+dt{
+  font-family: "Neometric-Heavy";
+  font-size: 2.1em;
+}
+.dt1{
+  margin-left: -10px;
+  color: #cc5253;
+}
+.dt3{
+  margin-left: -65px;
+  color: #cc5253;
+}
+.btn1{
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: #cc5253;
+  font-family: "Neometric-ExtraBold";
+  color: #cccccc;
+  margin-left: 85px;
+  position: relative;
+  top: -150px;
+}
+
+/* Second-section */
+
+.second-section{
+  height: auto;
+    width: 100vw;
+  }
+div.lineup{
+  background-color: #b9b9b9;
+  margin-left: 190px;
+  margin-right: 190px;
+  padding: 10px;
+  border-radius: 40px 10px 40px 10px;
+  margin-top: 43px;
+}
+div > h2{
+  text-align: center;
+  font-family: "Neometric-Heavy";
+  font-size: 2.2em;
+  margin-top: 15px;
+}
+p.desc-bikes{
+  display: block;
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Neometric-Light";
+}
+.list-bike{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 70px 150px;
+  gap: 100px;
+}
+.list-bike-img{
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.list-desc-bike{
+  margin-left: 80px;
+  font-size: 1.2em;
+  font-family: "Neometric-Light";
+  font-weight: bolder;
+}
+.list-price-bike{
+  font-family: "Neometric-Light";
+  font-size: 1em;
+  margin-left: 66px;
+}
+p.desc-bikes2{
+  display: block;
+  margin: auto;
+  width: 550px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Neometric-Light";
+}
+.btn2{
+  display: block;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: #cc5253;
+  font-family: "Neometric-ExtraBold";
+  color: #cccccc;
+  margin: 60px auto;
+}
+
+/* Third Section */
+
+.third-section{
+  background-color: #ca5356;
+  width: 100vw;
+  color:#cccccc;
+}
+.features-title{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Neometric-Heavy";
+  font-size: 2.5em;
+}
+.list-features{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 70px 150px;
+  gap: 100px;
+}
+.feat-img{
+  width: 200px;
+  margin-left: 130px;
+}
+.feat-title{
+  font-family: "Neometric-ExtraBold";
+  font-size: 2em;
+  text-align: center;
+  margin-left: -30px;
+}
+.feat-desc{
+  font-family: "Neometric-Light";
+  font-size: 1em;
+  width: 480px;
+  margin-top: 30px;
+}
+p.feat-desc2{
+  display: block;
+  margin: auto;
+  width: 856px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Neometric-Light";
+}
+.btn3{
+  display: block;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  background-color:#cccccc;
+  font-family: "Neometric-ExtraBold";
+  color: #ca5356;
+  margin: 60px auto;
+  margin-bottom: 100px;
+}
+
+/* Fourth-section */
+
+div.quest{
+  background-color: #b9b9b9;
+  margin-left: 190px;
+  margin-right: 190px;
+  padding: 10px;
+  border-radius: 40px 10px 40px 10px;
+  margin-top: 43px;
+}
+p.desc-quest{
+  display: block;
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Neometric-Light";
+}
+.form-control{
+  width: 950px;
+  background-color: transparent;
+  border-color: #4b4a4a;
+}
+.red-dot{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #ca5356;
+  margin-left: -920px;
+  margin-bottom: -80px;
+  display: inline-block;
+}
+.question{
+  font-family: "Neometric-Heavy";
+  padding-top: 50px;
+  margin-left: -700px;
+}
+.form-label{
+  padding-top: 15px;
+  font-family: "Neometric-Light";
+  width: 940px;
+  margin: auto;
+  text-align: left;
+  display: block;
+}
+.green-dot{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #28c387;
+  margin-right: 920px;
+  margin-bottom: -40px;
+  display: inline-block;
+}
+.yellow-dot{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #ffb02d;
+  margin-right: 920px;
+  margin-bottom: -40px;
+  display: inline-block;
+}
+.answer{
+  font-family: "Neometric-Heavy";
+  padding-top: 10px;
+  margin-left: -700px;
+  padding-bottom: 15px;
+}
+.input{
+  margin:0 auto;
+  padding: 20px;
+}
+.answer-name{
+  margin-left: -585px;
+  font-family: "Neometric-Heavy";
+  margin-top: 10px;
+}
+.answer-phone-number{
+  margin-left: -460px;
+  font-family: "Neometric-Heavy";
+  margin-top: 10px;
+}
+.radio{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+ padding: 20px;
+  width: 500px;
+  font-family: "Neometric-Heavy";
+}
+.form-check-input{
+  background-color: #eee;
+}
+.btn4{
+  display: block;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #28c387;
+    font-size: 1.2em;
+    font-family: "Neometric-ExtraBold";
+    color: #eeeeee;
+    margin: 60px auto;
+    margin-bottom: 100px;
+    width: 200px;
+}
+.btn:hover{
+  background-color: #ffb02d;
+  color: #000;
+}
+
+/* Fifth-Section  */
+
+.fifth-section{
+  background-color: #ca5356;
+  width: 100vw;
+  color:#cccccc;
+  height: 1200px;
+
+}
+.gift-heading{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 80px;
+  font-family: "Neometric-Heavy";
+  font-size: 2.5em;
+}
+.desc-gift{
+  display: block;
+    margin: auto;
+    width: 854px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: "Neometric-Light";
+}
+div.gift-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.img-gift{
+  width: 250px;
+  padding-top: 100px;
+ 
+}
+.gift-text{
+  display: inline-block;
+
+}
+.gift-price1{
+  margin-bottom: -30px;
+  padding-left: 275px;
+  font-family: "Neometric-ExtraBold";
+  font-size: 3em;
+}
+.gift-price{
+  margin-bottom: -30px;
+  padding-left: 260px;
+  font-family: "Neometric-ExtraBold";
+  font-size: 3em;
+}
+p .gift-card{
+  font-family: "Neometric-Medium";
+  font-size: 0.7em;
+}
+.btn5{
+  background-color: transparent;
+  border: 3px solid #cccccc;
+  color:#cccccc;
+  margin-bottom: -140px;
+  width: 395px;
+  height: 50px;
+  margin-left: -370px;
+  font-family: "Neometric-Medium";
+  font-size: 0.3em;
+  text-align: center;
+}
+
+/* Footer */
+section.footer{
+  background-color: #2a2a2a;
+  width: 100vw;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  color: #cc5253;
+  margin-left: -85px;
+}
+.footer_logo_text {
+  font-family: "Neometric-Heavy";
+  margin-top: 76px;
+  margin-left: 15px;
+  line-height: 20px;
+}
+span.footer_logo_black {
+  font-size: 30px;
+  color: #fff;
+}
+span.footer_logo_red {
+  font-size: 30px;
+  color: #cc5253;
+}
+span.footer_under_text{
+  font-family: "Neometric-regular";
+  margin-left: 4px;
+  color: #fff;
+}
+.call-request{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  margin-left: -73px;
+}
+.call-img{
+  width: 50px;
+  margin-left: 65px;
+  margin-bottom: 10px;
+}
+.btn6{
+  background-color: transparent;
+  border: 3px solid #cccccc;
+  color:#cccccc;
+  width: 395px;
+  height: 50px;
+  font-family: "Neometric-Medium";
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 15px;
+}
+ul.footer {
+  display: flex;
+  justify-content: center;
+}
+ul.footer > li.footer {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 50px;
+}
+li.footer > a.footer {
+  text-decoration: none;
+  color: #ccc;
+  font-family: "Neometric-regular";
+  font-weight: bolder;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
